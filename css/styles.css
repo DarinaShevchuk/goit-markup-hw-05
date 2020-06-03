@@ -95,6 +95,11 @@ img {
 .item {
   position: relative;
 }
+
+.current:active {
+  color: var(--button-color);
+}
+
 .current::after {
   content: "";
   position: absolute;
