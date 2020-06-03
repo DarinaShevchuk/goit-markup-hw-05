@@ -150,12 +150,6 @@ img {
   fill: var(--button-color);
 }
 
-.sub {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-}
-
 /* Hero */
 
 .hero {
@@ -493,6 +487,12 @@ Clients */
   font-size: 18px;
   line-height: 1.56;
   color: var(--font-text-color);
+}
+
+.sub {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .content {
