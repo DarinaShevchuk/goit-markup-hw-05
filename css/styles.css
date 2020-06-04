@@ -96,6 +96,10 @@ img {
   position: relative;
 }
 
+.current:active {
+  color: var(--button-color);
+}
+
 .current::after {
   content: "";
   position: absolute;
@@ -212,7 +216,7 @@ img {
 }
 
 .border::before {
-  display: block;
+  display: inline-block;
   content: "";
   position: absolute;
   bottom: 0;
