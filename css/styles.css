@@ -100,10 +100,6 @@ img {
   position: relative;
 }
 
-.current:active {
-  color: var(--button-color);
-}
-
 .current::after {
   content: "";
   position: absolute;
@@ -418,15 +414,13 @@ Clients */
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--button-color);
   border-color: var(--button-color);
-  transform: scale3d(1.5, 1.5, 3);
 }
 
 /* Portfolio */
@@ -486,6 +480,8 @@ Clients */
   margin-bottom: 30px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-element:nth-child(3n) {
